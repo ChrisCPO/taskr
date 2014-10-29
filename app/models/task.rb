@@ -3,5 +3,6 @@ class Task < ActiveRecord::Base
 
   def complete!
     update(completed: true)
+
   end
 end
